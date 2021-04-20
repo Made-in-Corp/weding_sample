@@ -1,0 +1,38 @@
+.menu22{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70%;
+    color: white !important;
+    font-size: 1.7rem;
+    list-style: none;
+    margin-bottom: 0px;
+}
+.menucontents{
+    color: white;
+}
+a{
+    color: white;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    bottom: 0;
+}
+.menu-icon{
+    display: none;
+}
+.popupicon{
+    
+}
+
+@media (max-width : 1024px) {
+    .menucontents{
+        display: none;
+    }
+    .menu-icon{
+        display: unset;
+    }
+}
